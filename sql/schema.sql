@@ -1,23 +1,46 @@
 -- sql/schema.sql
 
--- Table for Mutual Fund Metadata
-CREATE TABLE IF NOT EXISTS fund_master (
-    scheme_code INTEGER PRIMARY KEY,
+-- 1. Dimension Tables
+CREATE TABLE IF NOT EXISTS dim_fund (
+    amfi_code TEXT PRIMARY KEY,
+    fund_house TEXT,
     scheme_name TEXT,
     category TEXT,
     sub_category TEXT,
-    risk_grade TEXT,
-    aum_crore REAL
+    expense_ratio_pct REAL,
+    risk_category TEXT
 );
 
--- Table for Historical NAV Data
-CREATE TABLE IF NOT EXISTS nav_history (
-    scheme_code INTEGER,
+-- 2. Fact Tables
+CREATE TABLE IF NOT EXISTS fact_nav (
+    amfi_code TEXT,
     nav_date DATE,
     nav REAL,
-    FOREIGN KEY (scheme_code) REFERENCES fund_master (scheme_code)
+    FOREIGN KEY (amfi_code) REFERENCES dim_fund(amfi_code),
+    PRIMARY KEY (amfi_code, nav_date)
 );
 
--- Indexes to make your EDA queries run much faster
-CREATE INDEX IF NOT EXISTS idx_nav_date ON nav_history(nav_date);
-CREATE INDEX IF NOT EXISTS idx_scheme_code ON nav_history(scheme_code);
+CREATE TABLE IF NOT EXISTS fact_transactions (
+    transaction_id TEXT PRIMARY KEY,
+    investor_id TEXT,
+    amfi_code TEXT,
+    transaction_date DATE,
+    transaction_type TEXT,
+    amount_inr REAL,
+    state TEXT,
+    city TEXT,
+    kyc_status TEXT,
+    FOREIGN KEY (amfi_code) REFERENCES dim_fund(amfi_code)
+);
+
+CREATE TABLE IF NOT EXISTS fact_performance (
+    amfi_code TEXT PRIMARY KEY,
+    return_1yr_pct REAL,
+    return_3yr_pct REAL,
+    return_5yr_pct REAL,
+    sharpe_ratio REAL,
+    alpha REAL,
+    beta REAL,
+    max_drawdown_pct REAL,
+    FOREIGN KEY (amfi_code) REFERENCES dim_fund(amfi_code)
+);
