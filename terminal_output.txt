@@ -1,0 +1,153 @@
+Warning: PowerShell detected that you might be using a screen reader and has disabled PSReadLine for compatibility purposes. If you want to re-enable it, run 'Import-Module PSReadLine'.
+
+PS C:\Users\Administrator\Bluestock_Internship> python scripts/data_ingestion.py
+
+Found 6 CSV files
+
+======================================================================
+FILE NAME : Axis_Bluechip.csv
+
+SHAPE:
+(3564, 2)
+
+DATA TYPES:
+date        str
+nav     float64
+dtype: object
+
+FIRST 5 ROWS:
+         date        nav
+0  29-05-2026  6151.1139
+1  27-05-2026  6146.6118
+2  26-05-2026  6144.0004
+3  25-05-2026  6144.8478
+4  22-05-2026  6142.6380
+
+
+======================================================================
+FILE NAME : HDFC_Top100_NAV.csv
+
+SHAPE:
+(3090, 2)
+
+DATA TYPES:
+date        str
+nav     float64
+dtype: object
+
+FIRST 5 ROWS:
+         date       nav
+0  31-05-2026  193.6836
+1  29-05-2026  193.6848
+2  27-05-2026  195.0501
+3  26-05-2026  194.2258
+4  25-05-2026  193.5599
+
+
+======================================================================
+FILE NAME : ICICI_Bluechip.csv
+
+SHAPE:
+(3306, 2)
+
+DATA TYPES:
+date        str
+nav     float64
+dtype: object
+
+FIRST 5 ROWS:
+         date       nav
+0  31-05-2026  104.3083
+1  29-05-2026  104.3129
+2  27-05-2026  105.9296
+3  26-05-2026  105.5115
+4  25-05-2026  105.9217
+
+
+======================================================================
+FILE NAME : Kotak_Bluechip.csv
+
+SHAPE:
+(3300, 2)
+
+DATA TYPES:
+date        str
+nav     float64
+dtype: object
+
+FIRST 5 ROWS:
+         date       nav
+0  29-05-2026  248.6673
+1  27-05-2026  251.2273
+2  26-05-2026  251.2702
+3  25-05-2026  249.2266
+4  22-05-2026  247.8039
+
+
+======================================================================
+FILE NAME : Nippon_LargeCap.csv
+
+SHAPE:
+(3297, 2)
+
+DATA TYPES:
+date        str
+nav     float64
+dtype: object
+
+FIRST 5 ROWS:
+         date      nav
+0  29-05-2026  98.4656
+1  27-05-2026  99.8092
+2  26-05-2026  99.4356
+3  25-05-2026  99.8047
+4  22-05-2026  98.7497
+
+
+======================================================================
+FILE NAME : SBI_Bluechip.csv
+
+SHAPE:
+(3235, 2)
+
+DATA TYPES:
+date        str
+nav     float64
+dtype: object
+
+FIRST 5 ROWS:
+         date       nav
+0  29-05-2026  104.6570
+1  27-05-2026  104.5833
+2  26-05-2026  104.5269
+3  25-05-2026  104.5215
+4  22-05-2026  104.3467
+
+PS C:\Users\Administrator\Bluestock_Internship> python fetch_multiple_nav.py
+C:\Program Files\Python312\python.exe: can't open file 'C:\\Users\\Administrator\\Bluestock_Internship\\fetch_multiple_nav.py': [Errno 2] No such file or directory
+PS C:\Users\Administrator\Bluestock_Internship> python scripts/fetch_multiple_nav.py
+Fetching SBI_Bluechip...
+Saved: data\raw\SBI_Bluechip.csv
+Fetching ICICI_Bluechip...
+Saved: data\raw\ICICI_Bluechip.csv
+Fetching Nippon_LargeCap...
+Saved: data\raw\Nippon_LargeCap.csv
+Fetching Axis_Bluechip...
+Saved: data\raw\Axis_Bluechip.csv
+Fetching Kotak_Bluechip...
+Saved: data\raw\Kotak_Bluechip.csv
+
+All downloads completed.
+PS C:\Users\Administrator\Bluestock_Internship> python scripts/live_nav_fetch.py    
+Fetching NAV data...
+File saved successfully!
+Location: data\raw\HDFC_Top100_NAV.csv
+
+First 5 rows:
+         date        nav
+0  01-06-2026  192.31950
+1  31-05-2026  193.68360
+2  29-05-2026  193.68480
+3  27-05-2026  195.05010
+4  26-05-2026  194.22580
+PS C:\Users\Administrator\Bluestock_Internship> 
