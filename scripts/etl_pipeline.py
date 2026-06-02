@@ -42,16 +42,24 @@ def clean_and_load_data():
         df_fund.to_sql('dim_fund', engine, if_exists='replace', index=False)
         print("Loaded dim_fund and saved to CSV.")
 
-    # 3. fact_nav
+   # 3. fact_nav
     if (RAW_DIR / '02_nav_history.csv').exists():
         df_nav = pd.read_csv(RAW_DIR / '02_nav_history.csv')
         df_nav['amfi_code'] = df_nav['amfi_code'].astype(str)
-        df_nav['date'] = pd.to_datetime(df_nav['date'], format='%d-%m-%Y', errors='coerce')
+        
+        # Let Pandas infer the date format automatically and drop invalid 'NaT' dates
+        df_nav['date'] = pd.to_datetime(df_nav['date'], errors='coerce')
+        df_nav = df_nav.dropna(subset=['date'])
+        
         df_nav = df_nav.drop_duplicates(subset=['amfi_code', 'date'])
         df_nav = df_nav[df_nav['nav'] > 0]
-        df_nav = df_nav.set_index('date').groupby('amfi_code').resample('D').ffill().reset_index(level=0, drop=True).reset_index()
+        
+        # FIX: Safer resampling method that DOES NOT drop the amfi_code column
+        df_nav = df_nav.set_index('date').groupby('amfi_code')['nav'].resample('D').ffill().reset_index()
+        
         df_nav.rename(columns={'date': 'nav_date'}, inplace=True)
         df_nav['nav_date'] = df_nav['nav_date'].dt.strftime('%Y-%m-%d')
+        
         df_nav.to_csv(PROCESSED_DIR / 'clean_nav_history.csv', index=False)
         df_nav.to_sql('fact_nav', engine, if_exists='replace', index=False)
         print("Loaded fact_nav and saved to CSV.")
@@ -74,9 +82,14 @@ def clean_and_load_data():
         df_perf.to_sql('fact_performance', engine, if_exists='replace', index=False)
         print("Loaded fact_performance and saved to CSV.")
 
-    # 6. fact_aum
+   # 6. fact_aum
     if (RAW_DIR / '03_aum_by_fund_house.csv').exists():
         df_aum = pd.read_csv(RAW_DIR / '03_aum_by_fund_house.csv')
+        
+        # FIX: Rename 'date' to 'date_key' so it matches our SQL query perfectly
+        if 'date' in df_aum.columns:
+            df_aum.rename(columns={'date': 'date_key'}, inplace=True)
+            
         df_aum.to_csv(PROCESSED_DIR / 'clean_aum.csv', index=False)
         df_aum.to_sql('fact_aum', engine, if_exists='replace', index=False)
         print("Loaded fact_aum and saved to CSV.")
