@@ -20,3 +20,39 @@ Processing SBI_Bluechip.csv...
 
 ✅ All NAV History cleaned (weekends handled) and loaded to database!
 PS C:\Users\Administrator\Bluestock_Internship> 
+
+
+
+
+
+
+
+
+
+
+
+Warning: PowerShell detected that you might be using a screen reader and has disabled PSReadLine for compatibility purposes. If you want to re-enable it, run 'Import-Module PSReadLine'.
+
+PS C:\Users\Administrator\Bluestock_Internship> python scripts/etl_pipeline.py
+Star Schema Initialized.
+
+✅ Day 2 ETL Complete: Cleaned data loaded into SQLite Star Schema!
+PS C:\Users\Administrator\Bluestock_Internship> git add .
+PS C:\Users\Administrator\Bluestock_Internship> git commit -m "Day 2: Added analytical SQL queries and Data Dictionary"
+[main 7f1b6cd] Day 2: Added analytical SQL queries and Data Dictionary
+ 4 files changed, 204 insertions(+), 82 deletions(-)
+ create mode 100644 data_dictionary.md
+ create mode 100644 sql/queries.sql
+PS C:\Users\Administrator\Bluestock_Internship> git push 
+info: please complete authentication in your browser...
+git: 'credential-manager-core' is not a git command. See 'git --help'.
+Enumerating objects: 35, done.
+Counting objects: 100% (35/35), done.
+Delta compression using up to 8 threads
+Compressing objects:   4% (1/2Compressing objects:   8% (2/2Compressing objects:  13% (3/2Compressing objects:  17% (4/2Compressing objects:  21% (5/2Compressing objects:  26% (6/2Compressing objects:  30% (7/2Compressing objects:  34% (8/2Compressing objects:  39% (9/2Compressing objects:  43% (10/Compressing objects:  47% (11/Compressing objects:  52% (12/Compressing objects:  56% (13/Compressing objects:  60% (14/Compressing objects:  65% (15/Compressing objects:  69% (16/Compressing objects:  73% (17/Compressing objects:  78% (18/Compressing objects:  82% (19/Compressing objects:  86% (20/Compressing objects:  91% (21/Compressing objects:  95% (22/Compressing objects: 100% (23/Compressing objects: 100% (23/23), done.
+Writing objects: 100% (25/25), 8.35 KiB | 569.00 KiB/s, done.
+Total 25 (delta 9), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas:  22%remote: Resolving deltas:  33%remote: Resolving deltas:  44%remote: Resolving deltas:  55%remote: Resolving deltas:  66%remote: Resolving deltas:  77%remote: Resolving deltas:  88%remote: Resolving deltas: 100%remote: Resolving deltas: 100% (9/9), completed with 7 local objects.
+To https://github.com/Mahima-9960/bluestock_mf_capstone.git
+   49ae3fb..7f1b6cd  main -> main
+PS C:\Users\Administrator\Bluestock_Internship> 

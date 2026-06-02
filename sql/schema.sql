@@ -11,6 +11,15 @@ CREATE TABLE IF NOT EXISTS dim_fund (
     risk_category TEXT
 );
 
+CREATE TABLE IF NOT EXISTS dim_date (
+    date_key DATE PRIMARY KEY,
+    year INTEGER,
+    month INTEGER,
+    quarter INTEGER,
+    day_of_week INTEGER,
+    is_weekend BOOLEAN
+);
+
 -- 2. Fact Tables
 CREATE TABLE IF NOT EXISTS fact_nav (
     amfi_code TEXT,
@@ -43,4 +52,13 @@ CREATE TABLE IF NOT EXISTS fact_performance (
     beta REAL,
     max_drawdown_pct REAL,
     FOREIGN KEY (amfi_code) REFERENCES dim_fund(amfi_code)
+);
+
+CREATE TABLE IF NOT EXISTS fact_aum (
+    fund_house TEXT,
+    date_key DATE,
+    aum_crore REAL,
+    num_schemes INTEGER,
+    FOREIGN KEY (date_key) REFERENCES dim_date(date_key),
+    PRIMARY KEY (fund_house, date_key)
 );
