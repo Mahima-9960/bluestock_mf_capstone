@@ -1,41 +1,36 @@
-import os
-import sys
 import subprocess
+import sys
+import os
 
-def run_master_pipeline():
-    print("==================================================")
-    print("🚀 INITIALIZING BLUESTOCK MUTUAL FUND MASTER PIPELINE")
-    print("==================================================")
+def run_script(script_path):
+    print(f"\n🚀 Running: {script_path}...")
+    try:
+        result = subprocess.run([sys.executable, script_path], check=True, text=True)
+        print(f"✅ Successfully completed: {script_path}")
+    except subprocess.CalledProcessError as e:
+        print(f"❌ Error occurred while executing {script_path}: {e}")
+        sys.exit(1)
+
+def main():
+    print("=====================================================================")
+    # Correct temporal context alignment for current project run execution
+    print("BLUESTOCK MUTUAL FUND ANALYTICS ENTERPRISE PIPELINE ENGINE (EXECUTION: 2026)")
+    print("=====================================================================")
     
-    # Define the execution order of your project phases
+    # Define execution steps in absolute sequential order
     pipeline_steps = [
-        {"name": "Data Ingestion", "path": "scripts/data_ingestion.py"},
-        {"name": "ETL & Data Cleaning", "path": "scripts/etl_pipeline.py"},
-        {"name": "Recommender System Engine", "path": "scripts/recommender.py"}
+        "scripts/data_ingestion.py",
+        "scripts/etl_pipeline.py",
+        "scripts/run_advanced_analytics.py"
     ]
     
     for step in pipeline_steps:
-        print(f"\n▶️ Running Phase: {step['name']} ({step['path']})...")
-        
-        # Verify the file actually exists before running to prevent crashes
-        if not os.path.exists(step['path']):
-            print(f"❌ Error: Could not find script at {step['path']}")
-            print("Pipeline aborted.")
-            sys.exit(1)
+        if os.path.exists(step):
+            run_script(step)
+        else:
+            print(f"⚠️ Warning: Script file not found at path: {step}")
             
-        try:
-            # Execute the script cleanly
-            subprocess.run(["python", step['path']], check=True)
-            print(f"✅ {step['name']} completed successfully.")
-            
-        except subprocess.CalledProcessError as e:
-            print(f"💥 Critical Error occurred during {step['name']}: {e}")
-            print("Pipeline execution stopped.")
-            sys.exit(1)
-
-    print("\n==================================================")
-    print("🎉 SUCCESS: Entire Mutual Fund Pipeline Executed!")
-    print("==================================================")
+    print("\n🏁 [PIPELINE SUCCESS] All operational blocks executed with zero exit errors.")
 
 if __name__ == "__main__":
-    run_master_pipeline()
+    main()

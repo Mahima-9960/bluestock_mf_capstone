@@ -60,3 +60,28 @@ Deliverable Location: reports/var_cvar_report.csv
 Grouped user segments by their historical transaction launch dates to establish clear structural trends regarding investment size and asset type preference.
 
 Tracks systemic SIP Continuity metrics, flagging active accounts showing payment gaps greater than 35 days as "at-risk" churn vectors.
+
+# 📊 Bluestock Mutual Fund Data Analytics Platform
+
+An enterprise-grade Python data engineering and quantitative risk analysis pipeline designed to process historical Net Asset Value (NAV) distributions and investor transactional cohorts.
+
+## 🚀 Architectural Execution Sequence
+
+The platform uses a modular processing design structured as follows:
+1. **`data_ingestion.py`**: Pulls raw data structures and checks field configurations.
+2. **`etl_pipeline.py`**: Standardizes time indexes, handles missing variables, and maintains relational integrity.
+3. **`run_advanced_analytics.py`**: Quantifies risk matrices ($VaR$, $CVaR$, portfolio $HHI$), tracks retention churn vectors, and exports graphical analytics.
+4. **`recommender.py`**: Evaluates client profiles against calculated risk-adjusted return tiers.
+
+## 📦 Local Installation & Deployment Blueprint
+
+```bash
+# Clone your portfolio repository
+git clone [https://github.com/your-username/Bluestock_Internship.git](https://github.com/your-username/Bluestock_Internship.git)
+cd Bluestock_Internship
+
+# Install standard dependencies
+pip install -r requirements.txt
+
+# Execute the entire orchestration pipeline in one command
+python run_pipeline.py
