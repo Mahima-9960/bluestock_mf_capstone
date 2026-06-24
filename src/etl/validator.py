@@ -27,7 +27,6 @@ class DataValidator:
 
         seen_pks = set()
 
-        # 🛡️ Inline helper to turn missing/NaN cell values safely into 0.0
         def safe_float(val) -> float:
             if pd.isna(val) or str(val).strip().lower() in ['nan', 'null', '']:
                 return 0.0
@@ -40,8 +39,16 @@ class DataValidator:
             comp_id = str(row.get('company_id', row.get('id', 'UNKNOWN'))).strip().upper()
             raw_yr = str(row.get('year', row.get('Year', 'SNAPSHOT'))).strip()
 
-            # --- DQ-01 & DQ-02: Primary Key Duplication ---
-            pk_key = comp_id if table_name in ['companies', 'analysis', 'sectors'] else (comp_id, raw_yr)
+            # --- DQ-01 & DQ-02: Smart Primary Key Duplication Gate ---
+            if table_name == 'stock_prices':
+                # For time-series price data, uniqueness is determined by company + specific date
+                price_date = str(row.get('date', row.get('Date', ''))).strip()
+                pk_key = (comp_id, price_date)
+            elif table_name in ['companies', 'analysis', 'sectors']:
+                pk_key = comp_id
+            else:
+                pk_key = (comp_id, raw_yr)
+
             if pk_key in seen_pks:
                 self.log_failure(comp_id, raw_yr, 'PRIMARY_KEY', 'DQ-01/02', f'Duplicate primary key within {table_name}.', 'CRITICAL')
                 rows_to_drop.add(idx)
