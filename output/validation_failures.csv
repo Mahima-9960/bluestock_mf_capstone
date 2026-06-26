@@ -1,0 +1,669 @@
+company_id,year,field,rule_id,issue,severity
+ADANIENSOL,2014-03,sales,DQ-06,Zero or negative sales baseline.,WARNING
+ADANIENSOL,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (34%) vs Reported (30.0%),WARNING
+ADANIENSOL,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (30%) vs Reported (0.0%),WARNING
+ADANIENT,2014-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -64.0%,WARNING
+ADANIGREEN,2017-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -75.0%,WARNING
+ADANIGREEN,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -35.0%,WARNING
+ADANIGREEN,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -19.0%,WARNING
+ADANIPORTS,2013-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2014-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2015-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2016-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2017-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2018-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2019-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2020-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2021-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2022-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2023-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,2024-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPORTS,TTM,PRIMARY_KEY,DQ-01/02,Duplicate primary key within profitandloss.,CRITICAL
+ADANIPOWER,2014-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -79.0%,WARNING
+ADANIPOWER,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -47.0%,WARNING
+ADANIPOWER,2017-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -1.0%,WARNING
+ADANIPOWER,2023-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -40.0%,WARNING
+AMBUJACEM,2018-12,tax_percentage,DQ-11,Abnormal corporate tax rate: -2.0%,WARNING
+APOLLOHOSP,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 65.0%,WARNING
+AXISBANK,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (31%) vs Reported (1353.0%),WARNING
+AXISBANK,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (31%) vs Reported (2307.0%),WARNING
+AXISBANK,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (31%) vs Reported (3097.0%),WARNING
+AXISBANK,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (33%) vs Reported (3466.0%),WARNING
+AXISBANK,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (53%) vs Reported (-5715.0%),WARNING
+AXISBANK,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (63%) vs Reported (-10277.0%),WARNING
+AXISBANK,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -99.0%,WARNING
+AXISBANK,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (49%) vs Reported (-5447.0%),WARNING
+AXISBANK,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (56%) vs Reported (-9859.0%),WARNING
+AXISBANK,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 67.0%,WARNING
+AXISBANK,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (50%) vs Reported (-2510.0%),WARNING
+AXISBANK,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (44%) vs Reported (3170.0%),WARNING
+AXISBANK,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (34%) vs Reported (13857.0%),WARNING
+AXISBANK,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (35%) vs Reported (11952.0%),WARNING
+AXISBANK,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (37%) vs Reported (9061.0%),WARNING
+BAJFINANCE,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (32%) vs Reported (1367.0%),WARNING
+BAJFINANCE,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (32%) vs Reported (1986.0%),WARNING
+BAJFINANCE,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (33%) vs Reported (2867.0%),WARNING
+BAJFINANCE,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (32%) vs Reported (3935.0%),WARNING
+BAJFINANCE,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (30%) vs Reported (6310.0%),WARNING
+BAJFINANCE,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (35%) vs Reported (7608.0%),WARNING
+BAJFINANCE,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (41%) vs Reported (6314.0%),WARNING
+BAJFINANCE,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (38%) vs Reported (9906.0%),WARNING
+BAJFINANCE,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (31%) vs Reported (16018.0%),WARNING
+BAJFINANCE,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (29%) vs Reported (19987.0%),WARNING
+BAJFINANCE,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (30%) vs Reported (21417.0%),WARNING
+BANKBARODA,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (30%) vs Reported (1006.0%),WARNING
+BANKBARODA,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (30%) vs Reported (809.0%),WARNING
+BANKBARODA,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (30%) vs Reported (902.0%),WARNING
+BANKBARODA,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (55%) vs Reported (-11700.0%),WARNING
+BANKBARODA,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -19.0%,WARNING
+BANKBARODA,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (43%) vs Reported (-4372.0%),WARNING
+BANKBARODA,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (57%) vs Reported (-9197.0%),WARNING
+BANKBARODA,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -9.0%,WARNING
+BANKBARODA,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (49%) vs Reported (-5414.0%),WARNING
+BANKBARODA,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (51%) vs Reported (-11728.0%),WARNING
+BANKBARODA,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -99.0%,WARNING
+BANKBARODA,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (51%) vs Reported (-6957.0%),WARNING
+BANKBARODA,2021-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 77.0%,WARNING
+BANKBARODA,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (51%) vs Reported (-2948.0%),WARNING
+BANKBARODA,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (40%) vs Reported (6329.0%),WARNING
+BANKBARODA,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (37%) vs Reported (4102.0%),WARNING
+BANKBARODA,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (37%) vs Reported (3526.0%),WARNING
+BHARTIARTL,2014-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 62.0%,WARNING
+BHARTIARTL,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -99.0%,WARNING
+BHARTIARTL,2019-03,dividend_payout,DQ-12,Extreme dividend distribution: 244.0%,WARNING
+BHARTIARTL,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -28.0%,WARNING
+BHARTIARTL,2021-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+BHEL,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -39.0%,WARNING
+BHEL,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 64.0%,WARNING
+BHEL,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+BHEL,2021-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -25.0%,WARNING
+BHEL,2024-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -16.0%,WARNING
+BRITANNIA,2021-03,dividend_payout,DQ-12,Extreme dividend distribution: 204.0%,WARNING
+CANBK,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (21%) vs Reported (655.0%),WARNING
+CANBK,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (24%) vs Reported (-672.0%),WARNING
+CANBK,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (24%) vs Reported (-621.0%),WARNING
+CANBK,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (40%) vs Reported (-8008.0%),WARNING
+CANBK,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -13.0%,WARNING
+CANBK,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (38%) vs Reported (-5775.0%),WARNING
+CANBK,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (62%) vs Reported (-13350.0%),WARNING
+CANBK,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -36.0%,WARNING
+CANBK,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (57%) vs Reported (-11590.0%),WARNING
+CANBK,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -99.0%,WARNING
+CANBK,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (54%) vs Reported (-12867.0%),WARNING
+CANBK,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (62%) vs Reported (-18367.0%),WARNING
+CANBK,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (58%) vs Reported (-13657.0%),WARNING
+CANBK,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (50%) vs Reported (-9877.0%),WARNING
+CANBK,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (42%) vs Reported (-7745.0%),WARNING
+CANBK,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (40%) vs Reported (-8985.0%),WARNING
+CHOLAFIN,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (27%) vs Reported (472.0%),WARNING
+CHOLAFIN,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (28%) vs Reported (578.0%),WARNING
+CHOLAFIN,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (29%) vs Reported (696.0%),WARNING
+CHOLAFIN,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (30%) vs Reported (899.0%),WARNING
+CHOLAFIN,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (28%) vs Reported (1143.0%),WARNING
+CHOLAFIN,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (26%) vs Reported (1451.0%),WARNING
+CHOLAFIN,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (23%) vs Reported (1888.0%),WARNING
+CHOLAFIN,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (28%) vs Reported (1699.0%),WARNING
+CHOLAFIN,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (30%) vs Reported (2094.0%),WARNING
+CHOLAFIN,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (29%) vs Reported (2924.0%),WARNING
+CHOLAFIN,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (28%) vs Reported (3515.0%),WARNING
+CHOLAFIN,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (28%) vs Reported (4548.0%),WARNING
+CHOLAFIN,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (29%) vs Reported (5175.0%),WARNING
+CIPLA,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (73%) vs Reported (2214.0%),WARNING
+CIPLA,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (79%) vs Reported (2147.0%),WARNING
+CIPLA,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (81%) vs Reported (2163.0%),WARNING
+CIPLA,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (82%) vs Reported (2480.0%),WARNING
+CIPLA,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (83%) vs Reported (2496.0%),WARNING
+CIPLA,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (81%) vs Reported (2826.0%),WARNING
+CIPLA,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (81%) vs Reported (3097.0%),WARNING
+CIPLA,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (81%) vs Reported (3206.0%),WARNING
+CIPLA,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (78%) vs Reported (4252.0%),WARNING
+CIPLA,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (79%) vs Reported (4553.0%),WARNING
+CIPLA,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (78%) vs Reported (5027.0%),WARNING
+CIPLA,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (76%) vs Reported (6291.0%),WARNING
+CIPLA,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (74%) vs Reported (6906.0%),WARNING
+COALINDIA,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (74%) vs Reported (18087.0%),WARNING
+COALINDIA,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (75%) vs Reported (17766.0%),WARNING
+COALINDIA,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (77%) vs Reported (17343.0%),WARNING
+COALINDIA,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (76%) vs Reported (18714.0%),WARNING
+COALINDIA,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (84%) vs Reported (12448.0%),WARNING
+COALINDIA,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (89%) vs Reported (9288.0%),WARNING
+COALINDIA,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (75%) vs Reported (25007.0%),WARNING
+COALINDIA,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (78%) vs Reported (21581.0%),WARNING
+COALINDIA,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (79%) vs Reported (18628.0%),WARNING
+COALINDIA,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (77%) vs Reported (24721.0%),WARNING
+COALINDIA,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (68%) vs Reported (44232.0%),WARNING
+COALINDIA,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (66%) vs Reported (47971.0%),WARNING
+COALINDIA,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (67%) vs Reported (46610.0%),WARNING
+DLF,2014-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -16.0%,WARNING
+DLF,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+DRREDDY,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -7.0%,WARNING
+GODREJCP,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -12.0%,WARNING
+GODREJCP,2024-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+GRASIM,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -1.0%,WARNING
+HDFCBANK,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (35%) vs Reported (3534.0%),WARNING
+HDFCBANK,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (32%) vs Reported (5602.0%),WARNING
+HDFCBANK,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (32%) vs Reported (7214.0%),WARNING
+HDFCBANK,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (32%) vs Reported (9037.0%),WARNING
+HDFCBANK,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (33%) vs Reported (11374.0%),WARNING
+HDFCBANK,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (35%) vs Reported (13374.0%),WARNING
+HDFCBANK,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (33%) vs Reported (16592.0%),WARNING
+HDFCBANK,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (37%) vs Reported (14593.0%),WARNING
+HDFCBANK,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (41%) vs Reported (16848.0%),WARNING
+HDFCBANK,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (42%) vs Reported (20795.0%),WARNING
+HDFCBANK,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (37%) vs Reported (29932.0%),WARNING
+HDFCBANK,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (61%) vs Reported (-44685.0%),WARNING
+HDFCBANK,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (63%) vs Reported (-57587.0%),WARNING
+HDFCLIFE,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (96%) vs Reported (525.0%),WARNING
+HDFCLIFE,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (96%) vs Reported (605.0%),WARNING
+HDFCLIFE,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (97%) vs Reported (874.0%),WARNING
+HDFCLIFE,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (95%) vs Reported (953.0%),WARNING
+HDFCLIFE,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (97%) vs Reported (972.0%),WARNING
+HDFCLIFE,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (97%) vs Reported (1074.0%),WARNING
+HDFCLIFE,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (97%) vs Reported (1215.0%),WARNING
+HDFCLIFE,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (96%) vs Reported (1141.0%),WARNING
+HDFCLIFE,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (98%) vs Reported (1235.0%),WARNING
+HDFCLIFE,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (99%) vs Reported (778.0%),WARNING
+HDFCLIFE,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (100%) vs Reported (80.0%),WARNING
+HDFCLIFE,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (99%) vs Reported (531.0%),WARNING
+HDFCLIFE,2024-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -61.0%,WARNING
+HDFCLIFE,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (99%) vs Reported (725.0%),WARNING
+HEROMOTOCO,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (86%) vs Reported (3553.0%),WARNING
+HEROMOTOCO,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (87%) vs Reported (3520.0%),WARNING
+HEROMOTOCO,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (84%) vs Reported (4424.0%),WARNING
+HEROMOTOCO,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (84%) vs Reported (4585.0%),WARNING
+HEROMOTOCO,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (84%) vs Reported (5334.0%),WARNING
+HEROMOTOCO,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (85%) vs Reported (5025.0%),WARNING
+HEROMOTOCO,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (86%) vs Reported (4070.0%),WARNING
+HEROMOTOCO,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (87%) vs Reported (4058.0%),WARNING
+HEROMOTOCO,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (89%) vs Reported (3256.0%),WARNING
+HEROMOTOCO,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (4099.0%),WARNING
+HEROMOTOCO,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (86%) vs Reported (5235.0%),WARNING
+HEROMOTOCO,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (86%) vs Reported (5561.0%),WARNING
+HINDALCO,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (90%) vs Reported (7699.0%),WARNING
+HINDALCO,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (91%) vs Reported (8024.0%),WARNING
+HINDALCO,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (92%) vs Reported (8844.0%),WARNING
+HINDALCO,2015-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 75.0%,WARNING
+HINDALCO,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (92%) vs Reported (7778.0%),WARNING
+HINDALCO,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+HINDALCO,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (12317.0%),WARNING
+HINDALCO,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (13695.0%),WARNING
+HINDALCO,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (15511.0%),WARNING
+HINDALCO,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (14306.0%),WARNING
+HINDALCO,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (87%) vs Reported (17559.0%),WARNING
+HINDALCO,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (85%) vs Reported (28347.0%),WARNING
+HINDALCO,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (90%) vs Reported (22666.0%),WARNING
+HINDALCO,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (89%) vs Reported (23872.0%),WARNING
+HINDALCO,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (27931.0%),WARNING
+HINDUNILVR,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (84%) vs Reported (4220.0%),WARNING
+HINDUNILVR,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (84%) vs Reported (4759.0%),WARNING
+HINDUNILVR,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (83%) vs Reported (5412.0%),WARNING
+HINDUNILVR,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (82%) vs Reported (5910.0%),WARNING
+HINDUNILVR,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (81%) vs Reported (6328.0%),WARNING
+HINDUNILVR,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (79%) vs Reported (7499.0%),WARNING
+HINDUNILVR,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (77%) vs Reported (8880.0%),WARNING
+HINDUNILVR,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (75%) vs Reported (9861.0%),WARNING
+HINDUNILVR,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (75%) vs Reported (11626.0%),WARNING
+HINDUNILVR,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (75%) vs Reported (12857.0%),WARNING
+HINDUNILVR,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (77%) vs Reported (14147.0%),WARNING
+HINDUNILVR,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (76%) vs Reported (14659.0%),WARNING
+HINDUNILVR,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (76%) vs Reported (14759.0%),WARNING
+ICICIBANK,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (71%) vs Reported (-15085.0%),WARNING
+ICICIBANK,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (66%) vs Reported (-13084.0%),WARNING
+ICICIBANK,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (71%) vs Reported (-16120.0%),WARNING
+ICICIBANK,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (-26955.0%),WARNING
+ICICIBANK,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (105%) vs Reported (-37737.0%),WARNING
+ICICIBANK,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (117%) vs Reported (-44906.0%),WARNING
+ICICIBANK,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (116%) vs Reported (-50971.0%),WARNING
+ICICIBANK,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (101%) vs Reported (-45190.0%),WARNING
+ICICIBANK,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (102%) vs Reported (-44805.0%),WARNING
+ICICIBANK,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (85%) vs Reported (-26558.0%),WARNING
+ICICIBANK,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (73%) vs Reported (-17341.0%),WARNING
+ICICIBANK,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (62%) vs Reported (-14152.0%),WARNING
+ICICIBANK,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (70%) vs Reported (-31575.0%),WARNING
+ICICIGI,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (104%) vs Reported (-178.0%),WARNING
+ICICIGI,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (105%) vs Reported (-225.0%),WARNING
+ICICIGI,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (105%) vs Reported (-221.0%),WARNING
+ICICIGI,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (87%) vs Reported (764.0%),WARNING
+ICICIGI,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (919.0%),WARNING
+ICICIGI,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (104%) vs Reported (-262.0%),WARNING
+ICICIGI,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (85%) vs Reported (1669.0%),WARNING
+ICICIGI,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (85%) vs Reported (1772.0%),WARNING
+ICICIGI,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (83%) vs Reported (2072.0%),WARNING
+ICICIGI,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (94%) vs Reported (1016.0%),WARNING
+ICICIGI,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (93%) vs Reported (1264.0%),WARNING
+ICICIGI,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (87%) vs Reported (2577.0%),WARNING
+ICICIGI,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (86%) vs Reported (3363.0%),WARNING
+ICICIPRULI,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (96%) vs Reported (745.0%),WARNING
+ICICIPRULI,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (93%) vs Reported (1504.0%),WARNING
+ICICIPRULI,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (95%) vs Reported (1655.0%),WARNING
+ICICIPRULI,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (91%) vs Reported (1842.0%),WARNING
+ICICIPRULI,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (95%) vs Reported (1806.0%),WARNING
+ICICIPRULI,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (95%) vs Reported (1771.0%),WARNING
+ICICIPRULI,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (99%) vs Reported (541.0%),WARNING
+ICICIPRULI,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (102%) vs Reported (-319.0%),WARNING
+ICICIPRULI,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (100%) vs Reported (-390.0%),WARNING
+ICICIPRULI,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (103%) vs Reported (-2163.0%),WARNING
+ICICIPRULI,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (103%) vs Reported (-1757.0%),WARNING
+ICICIPRULI,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (102%) vs Reported (-1829.0%),WARNING
+ICICIPRULI,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (100%) vs Reported (321.0%),WARNING
+INDUSINDBK,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (28%) vs Reported (286.0%),WARNING
+INDUSINDBK,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (31%) vs Reported (335.0%),WARNING
+INDUSINDBK,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (32%) vs Reported (288.0%),WARNING
+INDUSINDBK,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (35%) vs Reported (329.0%),WARNING
+INDUSINDBK,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (39%) vs Reported (379.0%),WARNING
+INDUSINDBK,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (38%) vs Reported (942.0%),WARNING
+INDUSINDBK,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (42%) vs Reported (-437.0%),WARNING
+INDUSINDBK,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (44%) vs Reported (-553.0%),WARNING
+INDUSINDBK,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (55%) vs Reported (-2469.0%),WARNING
+INDUSINDBK,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (51%) vs Reported (-839.0%),WARNING
+INDUSINDBK,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (43%) vs Reported (2067.0%),WARNING
+INDUSINDBK,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (39%) vs Reported (2978.0%),WARNING
+INDUSINDBK,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (41%) vs Reported (1323.0%),WARNING
+IOC,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -74.0%,WARNING
+IRFC,2013-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 64.0%,WARNING
+JINDALSTEL,2015-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -6.0%,WARNING
+JINDALSTEL,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -22.0%,WARNING
+JINDALSTEL,2017-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -17.0%,WARNING
+JINDALSTEL,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -13.0%,WARNING
+JINDALSTEL,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -14.0%,WARNING
+JIOFIN,2023-03,eps,DQ-14,Positive net profit with flat/negative EPS.,WARNING
+JSWENERGY,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 75.0%,WARNING
+JSWENERGY,2018-03,eps,DQ-14,Positive net profit with flat/negative EPS.,WARNING
+JSWSTEEL,2014-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 70.0%,WARNING
+JSWSTEEL,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -80.0%,WARNING
+JSWSTEEL,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -30.0%,WARNING
+KOTAKBANK,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (61%) vs Reported (-1789.0%),WARNING
+KOTAKBANK,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (59%) vs Reported (-1379.0%),WARNING
+KOTAKBANK,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (73%) vs Reported (-3366.0%),WARNING
+KOTAKBANK,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (57%) vs Reported (-2263.0%),WARNING
+KOTAKBANK,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (66%) vs Reported (-3965.0%),WARNING
+KOTAKBANK,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (67%) vs Reported (-4141.0%),WARNING
+KOTAKBANK,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (66%) vs Reported (-5114.0%),WARNING
+KOTAKBANK,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (67%) vs Reported (-5005.0%),WARNING
+KOTAKBANK,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (91%) vs Reported (-9958.0%),WARNING
+KOTAKBANK,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (91%) vs Reported (-8512.0%),WARNING
+KOTAKBANK,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (79%) vs Reported (-5746.0%),WARNING
+KOTAKBANK,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (84%) vs Reported (-13382.0%),WARNING
+KOTAKBANK,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (79%) vs Reported (-14146.0%),WARNING
+LICI,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 68.0%,WARNING
+LICI,2019-03,eps,DQ-14,Positive net profit with flat/negative EPS.,WARNING
+LICI,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 80.0%,WARNING
+LICI,2020-03,eps,DQ-14,Positive net profit with flat/negative EPS.,WARNING
+LICI,2021-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 76.0%,WARNING
+LICI,2022-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 66.0%,WARNING
+LICI,TTM,eps,DQ-14,Positive net profit with flat/negative EPS.,WARNING
+LODHA,2021-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -44.0%,WARNING
+LODHA,2023-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -8.0%,WARNING
+M&M,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+M&M,2020-03,dividend_payout,DQ-12,Extreme dividend distribution: 205.0%,WARNING
+MOTHERSON,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -5.0%,WARNING
+NAUKRI,2015-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+NAUKRI,2017-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+NAUKRI,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 95.0%,WARNING
+NAUKRI,2023-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+NHPC,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -2.0%,WARNING
+NHPC,2022-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -17.0%,WARNING
+NTPC,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -2.0%,WARNING
+NTPC,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -25.0%,WARNING
+PNB,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -31.0%,WARNING
+PNB,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -37.0%,WARNING
+PNB,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -35.0%,WARNING
+POWERGRID,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -10.0%,WARNING
+SBIN,2017-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+SBIN,2017-03,dividend_payout,DQ-12,Extreme dividend distribution: 859.0%,WARNING
+SBIN,2018-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -66.0%,WARNING
+SHREECEM,2015-06,tax_percentage,DQ-11,Abnormal corporate tax rate: -6.0%,WARNING
+SIEMENS,2011-09,eps,DQ-14,Positive net profit with flat/negative EPS.,WARNING
+TATACONSUM,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+TATAMOTORS,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -8.0%,WARNING
+TATAMOTORS,2024-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -14.0%,WARNING
+TATAPOWER,2013-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 92.0%,WARNING
+TATAPOWER,2013-03,eps,DQ-14,Positive net profit with flat/negative EPS.,WARNING
+TATAPOWER,2014-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+TATAPOWER,2014-03,eps,DQ-14,Positive net profit with flat/negative EPS.,WARNING
+TATAPOWER,2015-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 72.0%,WARNING
+TATAPOWER,2015-03,dividend_payout,DQ-12,Extreme dividend distribution: 210.0%,WARNING
+TATASTEEL,2013-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 78.0%,WARNING
+TATASTEEL,2015-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+TATASTEEL,2016-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+TATASTEEL,2017-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+TATASTEEL,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -99.0%,WARNING
+TATASTEEL,2024-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+TRENT,2013-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+TRENT,2014-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 99.0%,WARNING
+TRENT,2021-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -12.0%,WARNING
+TRENT,2022-03,tax_percentage,DQ-11,Abnormal corporate tax rate: 69.0%,WARNING
+ULTRACEMCO,2013-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2014-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2015-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2016-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2017-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2018-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2019-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2020-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2021-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2022-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2023-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2024-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,TTM,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+UNIONBANK,2013-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2014-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2015-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2016-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2017-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2018-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2019-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2020-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2021-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2022-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2023-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2024-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,TTM,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNITDSPR,2013-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2014-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2015-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2016-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2017-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2018-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2019-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2020-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2021-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2022-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2023-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2024-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,TTM,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+VBL,2012-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2013-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2014-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2015-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2016-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2017-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2018-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2019-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2020-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2021-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2022-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2023-12,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,TTM,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VEDL,2013-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2014-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2015-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2016-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2017-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2018-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2019-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2020-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2021-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2022-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2023-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2024-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,TTM,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+WIPRO,2013-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2014-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2015-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2016-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2017-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2018-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2019-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2020-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2021-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2022-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2023-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2024-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,TTM,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+ZOMATO,2018-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2019-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2020-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2021-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2022-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2023-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2024-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,TTM,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZYDUSLIFE,2013-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2014-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2015-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2016-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2017-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2018-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2019-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2020-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2021-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2022-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2023-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2024-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,TTM,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+INDIGO,2013-03,opm_percentage,DQ-05,OPM mismatch: Calculated (91%) vs Reported (855.0%),WARNING
+INDIGO,2014-03,opm_percentage,DQ-05,OPM mismatch: Calculated (96%) vs Reported (433.0%),WARNING
+INDIGO,2015-03,opm_percentage,DQ-05,OPM mismatch: Calculated (86%) vs Reported (1904.0%),WARNING
+INDIGO,2016-03,opm_percentage,DQ-05,OPM mismatch: Calculated (80%) vs Reported (3164.0%),WARNING
+INDIGO,2017-03,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (2219.0%),WARNING
+INDIGO,2018-03,opm_percentage,DQ-05,OPM mismatch: Calculated (87%) vs Reported (3030.0%),WARNING
+INDIGO,2019-03,opm_percentage,DQ-05,OPM mismatch: Calculated (101%) vs Reported (-151.0%),WARNING
+INDIGO,2019-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -99.0%,WARNING
+INDIGO,2020-03,opm_percentage,DQ-05,OPM mismatch: Calculated (89%) vs Reported (4069.0%),WARNING
+INDIGO,2020-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -10.0%,WARNING
+INDIGO,2021-03,opm_percentage,DQ-05,OPM mismatch: Calculated (100%) vs Reported (2.0%),WARNING
+INDIGO,2022-03,opm_percentage,DQ-05,OPM mismatch: Calculated (98%) vs Reported (558.0%),WARNING
+INDIGO,2023-03,opm_percentage,DQ-05,OPM mismatch: Calculated (88%) vs Reported (6521.0%),WARNING
+INDIGO,2024-03,opm_percentage,DQ-05,OPM mismatch: Calculated (76%) vs Reported (16331.0%),WARNING
+INDIGO,2024-03,tax_percentage,DQ-11,Abnormal corporate tax rate: -2.0%,WARNING
+INDIGO,TTM,opm_percentage,DQ-05,OPM mismatch: Calculated (79%) vs Reported (15908.0%),WARNING
+ASIANPAINT,2013-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2014-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2015-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2016-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2017-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2018-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2019-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2020-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2021-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2022-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2023-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2024-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ASIANPAINT,2024-09,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2013-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2014-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2015-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2016-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2017-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2018-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2019-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2020-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2021-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2022-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2023-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+PNB,2024-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2013-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2014-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2015-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2016-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2017-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2018-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2019-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2020-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2021-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2022-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2023-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2024-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+POWERGRID,2024-09,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ZYDUSLIFE,2024.5,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZOMATO,2024.5,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+WIPRO,2024.5,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+VEDL,2024.5,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+UNITDSPR,2024.5,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+ULTRACEMCO,2024-09,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+TECHM,2013-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2014-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2015-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2016-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2017-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2018-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2019-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2020-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2021-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2022-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2023-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2024-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+TECHM,2024-09,PRIMARY_KEY,DQ-01/02,Duplicate primary key within balancesheet.,CRITICAL
+ABB,2014-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2015-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2016-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2017-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2018-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2019-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2020-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2021-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2022-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2023-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+ABB,2024-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+AGTL,2018-03,company_id,DQ-03,Orphaned ticker token [AGTL].,CRITICAL
+AGTL,2019-03,company_id,DQ-03,Orphaned ticker token [AGTL].,CRITICAL
+AGTL,2020-03,company_id,DQ-03,Orphaned ticker token [AGTL].,CRITICAL
+AGTL,2021-03,company_id,DQ-03,Orphaned ticker token [AGTL].,CRITICAL
+AGTL,2022-03,company_id,DQ-03,Orphaned ticker token [AGTL].,CRITICAL
+AGTL,2023-03,company_id,DQ-03,Orphaned ticker token [AGTL].,CRITICAL
+AGTL,2024-03,company_id,DQ-03,Orphaned ticker token [AGTL].,CRITICAL
+BAJAJ-AUTO,2013-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2014-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2015-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2016-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2017-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2018-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2019-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2020-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2021-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2022-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2023-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+BAJAJ-AUTO,2024-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2013-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2014-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2015-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2016-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2017-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2018-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2019-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2020-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2021-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2022-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2023-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TCS,2024-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within cashflow.,CRITICAL
+TVSMOTOR,2022-03,net_cash_flow,DQ-09,Statement disconnect on Net Cash Flow.,WARNING
+SBILIFE,SNAPSHOT,PRIMARY_KEY,DQ-01/02,Duplicate primary key within analysis.,CRITICAL
+TCS,SNAPSHOT,PRIMARY_KEY,DQ-01/02,Duplicate primary key within analysis.,CRITICAL
+WIPRO,SNAPSHOT,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,SNAPSHOT,PRIMARY_KEY,DQ-01/02,Duplicate primary key within analysis.,CRITICAL
+HDFCBANK,SNAPSHOT,PRIMARY_KEY,DQ-01/02,Duplicate primary key within analysis.,CRITICAL
+INFY,SNAPSHOT,PRIMARY_KEY,DQ-01/02,Duplicate primary key within analysis.,CRITICAL
+ADANIENT,2011-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+ADANIENT,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+ADANIENT,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BANKBARODA,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BANKBARODA,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BEL,2022-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BEL,2019-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BEL,2015-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BEL,2012-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BEL,2011-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BEL,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BEL,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHARTIARTL,2021-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHARTIARTL,2018-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHARTIARTL,2011-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHARTIARTL,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHARTIARTL,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHEL,2015-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHEL,2014-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHEL,2013-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHEL,2012-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHEL,2011-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHEL,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BHEL,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BOSCHLTD,2019-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BOSCHLTD,2018-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BOSCHLTD,2017-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BOSCHLTD,2014-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BOSCHLTD,2013-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BOSCHLTD,2012-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BOSCHLTD,2011-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BOSCHLTD,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BOSCHLTD,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BPCL,2022-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BPCL,2019-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BPCL,2016-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BPCL,2015-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BPCL,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+BPCL,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+DLF,2018-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+DLF,2017-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+EICHERMOT,2019-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+HAL,2011-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+HAL,2011-03,PRIMARY_KEY,DQ-01/02,Duplicate primary key within documents.,CRITICAL
+IOC,2024-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+IOC,2023-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+ITC,2011-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+ITC,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+ITC,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+JINDALSTEL,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+JINDALSTEL,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+KOTAKBANK,2023-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+KOTAKBANK,2022-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+KOTAKBANK,2021-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+KOTAKBANK,2017-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+KOTAKBANK,2016-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+KOTAKBANK,2015-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+KOTAKBANK,2013-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+KOTAKBANK,2012-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+KOTAKBANK,2011-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+NESTLEIND,2023-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+SUNPHARMA,2011-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+SUNPHARMA,2010-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+SUNPHARMA,2009-03,Annual_Report,DQ-13,Malformed report link pattern.,WARNING
+ULTRACEMCO,2012-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2011-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2010-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+ULTRACEMCO,2009-03,company_id,DQ-03,Orphaned ticker token [ULTRACEMCO].,CRITICAL
+UNIONBANK,2012-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2011-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2010-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNIONBANK,2009-03,company_id,DQ-03,Orphaned ticker token [UNIONBANK].,CRITICAL
+UNITDSPR,2012-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2011-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2010-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+UNITDSPR,2009-03,company_id,DQ-03,Orphaned ticker token [UNITDSPR].,CRITICAL
+VBL,2024-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2023-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2022-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2021-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2020-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2019-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2018-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2017-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2016-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2015-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2014-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2013-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2012-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2011-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2010-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VBL,2009-03,company_id,DQ-03,Orphaned ticker token [VBL].,CRITICAL
+VEDL,2012-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2011-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2010-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+VEDL,2009-03,company_id,DQ-03,Orphaned ticker token [VEDL].,CRITICAL
+WIPRO,2012-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2011-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2010-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+WIPRO,2009-03,company_id,DQ-03,Orphaned ticker token [WIPRO].,CRITICAL
+ZOMATO,2017-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2016-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2015-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2014-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2013-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2012-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2011-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2010-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZOMATO,2009-03,company_id,DQ-03,Orphaned ticker token [ZOMATO].,CRITICAL
+ZYDUSLIFE,2012-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2011-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2010-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
+ZYDUSLIFE,2009-03,company_id,DQ-03,Orphaned ticker token [ZYDUSLIFE].,CRITICAL
