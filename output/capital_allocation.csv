@@ -102,25 +102,13 @@ ASIANPAINT,2021-03,+,-,-,Shareholder Returns
 ASIANPAINT,2022-03,+,-,-,Reinvestor
 ASIANPAINT,2023-03,+,-,-,Reinvestor
 ASIANPAINT,2024-03,+,-,-,Shareholder Returns
-ATGL,2018-03,+,+,+,Cash Accumulator
-ATGL,2019-03,+,+,+,Cash Accumulator
-ATGL,2020-03,+,+,+,Cash Accumulator
-ATGL,2021-03,+,+,+,Cash Accumulator
-ATGL,2022-03,+,+,+,Cash Accumulator
-ATGL,2023-03,+,+,+,Cash Accumulator
-ATGL,2024-03,+,+,+,Cash Accumulator
-BAJAJ-AUTO,2013-03,+,-,-,Reinvestor
-BAJAJ-AUTO,2014-03,+,-,-,Shareholder Returns
-BAJAJ-AUTO,2015-03,+,-,-,Reinvestor
-BAJAJ-AUTO,2016-03,+,-,-,Reinvestor
-BAJAJ-AUTO,2017-03,+,-,-,Reinvestor
-BAJAJ-AUTO,2018-03,+,-,-,Shareholder Returns
-BAJAJ-AUTO,2019-03,+,-,-,Reinvestor
-BAJAJ-AUTO,2020-03,+,+,-,Liquidating Assets
-BAJAJ-AUTO,2021-03,+,-,-,Reinvestor
-BAJAJ-AUTO,2022-03,+,+,-,Liquidating Assets
-BAJAJ-AUTO,2023-03,+,+,-,Liquidating Assets
-BAJAJ-AUTO,2024-03,+,-,-,Reinvestor
+ATGL,2018-03,-,-,-,Pre-Revenue
+ATGL,2019-03,-,-,-,Pre-Revenue
+ATGL,2020-03,-,-,-,Pre-Revenue
+ATGL,2021-03,-,-,-,Pre-Revenue
+ATGL,2022-03,-,-,-,Pre-Revenue
+ATGL,2023-03,-,-,-,Pre-Revenue
+ATGL,2024-03,-,-,-,Pre-Revenue
 AXISBANK,2013-03,+,-,+,Mixed
 AXISBANK,2014-03,+,-,+,Mixed
 AXISBANK,2015-03,-,-,+,Growth Funded by Debt
@@ -133,6 +121,18 @@ AXISBANK,2021-03,+,-,+,Mixed
 AXISBANK,2022-03,+,-,+,Mixed
 AXISBANK,2023-03,+,-,+,Mixed
 AXISBANK,2024-03,-,-,+,Growth Funded by Debt
+BAJAJ-AUTO,2013-03,+,-,-,Reinvestor
+BAJAJ-AUTO,2014-03,+,-,-,Shareholder Returns
+BAJAJ-AUTO,2015-03,+,-,-,Reinvestor
+BAJAJ-AUTO,2016-03,+,-,-,Reinvestor
+BAJAJ-AUTO,2017-03,+,-,-,Reinvestor
+BAJAJ-AUTO,2018-03,+,-,-,Shareholder Returns
+BAJAJ-AUTO,2019-03,+,-,-,Reinvestor
+BAJAJ-AUTO,2020-03,+,+,-,Liquidating Assets
+BAJAJ-AUTO,2021-03,+,-,-,Reinvestor
+BAJAJ-AUTO,2022-03,+,+,-,Liquidating Assets
+BAJAJ-AUTO,2023-03,+,+,-,Liquidating Assets
+BAJAJ-AUTO,2024-03,+,-,-,Reinvestor
 BAJAJFINSV,2013-03,-,+,+,Distress Signal
 BAJAJFINSV,2014-03,-,+,+,Distress Signal
 BAJAJFINSV,2015-03,-,+,+,Distress Signal
@@ -179,18 +179,6 @@ BANKBARODA,2021-03,-,-,-,Pre-Revenue
 BANKBARODA,2022-03,+,-,-,Reinvestor
 BANKBARODA,2023-03,-,-,-,Pre-Revenue
 BANKBARODA,2024-03,-,-,+,Growth Funded by Debt
-BHARTIARTL,2013-03,+,-,-,Shareholder Returns
-BHARTIARTL,2014-03,+,-,+,Mixed
-BHARTIARTL,2015-03,+,-,-,Shareholder Returns
-BHARTIARTL,2016-03,+,-,-,Shareholder Returns
-BHARTIARTL,2017-03,+,-,-,Shareholder Returns
-BHARTIARTL,2018-03,+,-,+,Mixed
-BHARTIARTL,2019-03,+,-,+,Mixed
-BHARTIARTL,2020-03,+,-,+,Mixed
-BHARTIARTL,2021-03,+,-,-,Reinvestor
-BHARTIARTL,2022-03,+,-,-,Shareholder Returns
-BHARTIARTL,2023-03,+,-,-,Shareholder Returns
-BHARTIARTL,2024-03,+,-,-,Shareholder Returns
 BEL,2013-03,-,+,-,Mixed
 BEL,2014-03,-,+,-,Mixed
 BEL,2015-03,+,-,-,Shareholder Returns
@@ -203,6 +191,18 @@ BEL,2021-03,+,-,-,Shareholder Returns
 BEL,2022-03,+,-,-,Shareholder Returns
 BEL,2023-03,+,+,-,Liquidating Assets
 BEL,2024-03,+,-,-,Shareholder Returns
+BHARTIARTL,2013-03,+,-,-,Shareholder Returns
+BHARTIARTL,2014-03,+,-,+,Mixed
+BHARTIARTL,2015-03,+,-,-,Shareholder Returns
+BHARTIARTL,2016-03,+,-,-,Shareholder Returns
+BHARTIARTL,2017-03,+,-,-,Shareholder Returns
+BHARTIARTL,2018-03,+,-,+,Mixed
+BHARTIARTL,2019-03,+,-,+,Mixed
+BHARTIARTL,2020-03,+,-,+,Mixed
+BHARTIARTL,2021-03,+,-,-,Reinvestor
+BHARTIARTL,2022-03,+,-,-,Shareholder Returns
+BHARTIARTL,2023-03,+,-,-,Shareholder Returns
+BHARTIARTL,2024-03,+,-,-,Shareholder Returns
 BHEL,2013-03,+,-,+,Mixed
 BHEL,2014-03,+,-,+,Mixed
 BHEL,2015-03,+,+,-,Liquidating Assets
@@ -407,7 +407,7 @@ GRASIM,2021-03,+,-,-,Shareholder Returns
 GRASIM,2022-03,+,-,-,Reinvestor
 GRASIM,2023-03,-,-,+,Growth Funded by Debt
 GRASIM,2024-03,-,-,+,Growth Funded by Debt
-HAL,2016-03,+,+,+,Cash Accumulator
+HAL,2016-03,-,-,-,Pre-Revenue
 HAL,2017-03,-,+,-,Mixed
 HAL,2018-03,-,+,-,Mixed
 HAL,2019-03,-,+,+,Distress Signal
@@ -535,6 +535,18 @@ ICICIPRULI,2021-03,+,-,+,Mixed
 ICICIPRULI,2022-03,+,-,-,Shareholder Returns
 ICICIPRULI,2023-03,+,-,-,Reinvestor
 ICICIPRULI,2024-03,-,+,-,Mixed
+INDIGO,2013-03,+,-,+,Mixed
+INDIGO,2014-03,+,-,+,Mixed
+INDIGO,2015-03,+,-,-,Shareholder Returns
+INDIGO,2016-03,+,-,-,Shareholder Returns
+INDIGO,2017-03,+,-,-,Shareholder Returns
+INDIGO,2018-03,+,-,+,Mixed
+INDIGO,2019-03,+,-,-,Shareholder Returns
+INDIGO,2020-03,+,-,-,Reinvestor
+INDIGO,2021-03,-,+,-,Mixed
+INDIGO,2022-03,+,+,-,Liquidating Assets
+INDIGO,2023-03,+,-,-,Reinvestor
+INDIGO,2024-03,+,-,-,Shareholder Returns
 INDUSINDBK,2013-03,-,-,+,Growth Funded by Debt
 INDUSINDBK,2014-03,-,-,+,Growth Funded by Debt
 INDUSINDBK,2015-03,-,-,+,Growth Funded by Debt
@@ -581,9 +593,9 @@ IRCTC,2021-03,+,-,-,Shareholder Returns
 IRCTC,2022-03,+,-,-,Reinvestor
 IRCTC,2023-03,+,-,-,Reinvestor
 IRCTC,2024-03,+,-,-,Reinvestor
-IRFC,2013-03,+,+,+,Cash Accumulator
-IRFC,2014-03,+,+,+,Cash Accumulator
-IRFC,2015-03,+,+,+,Cash Accumulator
+IRFC,2013-03,-,-,-,Pre-Revenue
+IRFC,2014-03,-,-,-,Pre-Revenue
+IRFC,2015-03,-,-,-,Pre-Revenue
 IRFC,2016-03,-,+,+,Distress Signal
 IRFC,2017-03,-,+,+,Distress Signal
 IRFC,2018-03,-,+,+,Distress Signal
@@ -661,9 +673,9 @@ LICI,2021-03,+,+,-,Liquidating Assets
 LICI,2022-03,-,+,+,Distress Signal
 LICI,2023-03,+,-,-,Shareholder Returns
 LICI,2024-03,+,-,-,Reinvestor
-LODHA,2011-03,+,+,+,Cash Accumulator
-LODHA,2012-03,+,+,+,Cash Accumulator
-LODHA,2015-03,+,+,+,Cash Accumulator
+LODHA,2011-03,-,-,-,Pre-Revenue
+LODHA,2012-03,-,-,-,Pre-Revenue
+LODHA,2015-03,-,-,-,Pre-Revenue
 LODHA,2016-03,+,-,+,Mixed
 LODHA,2017-03,+,-,-,Shareholder Returns
 LODHA,2018-03,+,-,+,Mixed
@@ -1045,15 +1057,3 @@ TVSMOTOR,2021-03,+,-,+,Mixed
 TVSMOTOR,2022-03,-,-,+,Growth Funded by Debt
 TVSMOTOR,2023-03,-,-,+,Growth Funded by Debt
 TVSMOTOR,2024-03,-,-,+,Growth Funded by Debt
-INDIGO,2013-03,+,-,+,Mixed
-INDIGO,2014-03,+,-,+,Mixed
-INDIGO,2015-03,+,-,-,Shareholder Returns
-INDIGO,2016-03,+,-,-,Shareholder Returns
-INDIGO,2017-03,+,-,-,Shareholder Returns
-INDIGO,2018-03,+,-,+,Mixed
-INDIGO,2019-03,+,-,-,Shareholder Returns
-INDIGO,2020-03,+,-,-,Reinvestor
-INDIGO,2021-03,-,+,-,Mixed
-INDIGO,2022-03,+,+,-,Liquidating Assets
-INDIGO,2023-03,+,-,-,Reinvestor
-INDIGO,2024-03,+,-,-,Shareholder Returns
